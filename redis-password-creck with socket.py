@@ -1,10 +1,7 @@
 from base64 import decode, encode, encodebytes
 from email import message
 from encodings import utf_8
-import re
 import socket
-import sys
-from traceback import print_tb
 
 dictionary = "password.txt"
 target_ip = "127.0.0.1"
